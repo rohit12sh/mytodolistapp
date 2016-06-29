@@ -31,6 +31,14 @@ class FirstViewController: UIViewController, UITableViewDelegate {
         table.reloadData()
     }
     
+    @IBAction func logout(sender: AnyObject) {
+        let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+        let loginVC = storyBoard.instantiateViewControllerWithIdentifier("loginVC")
+            as LoginViewController
+        let appDelegate = UIApplication.sharedApplication().delegate as AppDelegate
+        appDelegate.window?.rootViewController = loginVC
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         if NSUserDefaults.standardUserDefaults().objectForKey("toDoListArr") != nil

@@ -14,6 +14,7 @@
 		46918EC11D21EC0A00B71018 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46918EC01D21EC0A00B71018 /* Images.xcassets */; };
 		46918EC41D21EC0A00B71018 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46918EC21D21EC0A00B71018 /* LaunchScreen.xib */; };
 		46918ED01D21EC0A00B71018 /* MyToDoListAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46918ECF1D21EC0A00B71018 /* MyToDoListAppTests.swift */; };
+		46918EDA1D23594200B71018 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46918ED91D23594200B71018 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		46918EC91D21EC0A00B71018 /* MyToDoListAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyToDoListAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46918ECE1D21EC0A00B71018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46918ECF1D21EC0A00B71018 /* MyToDoListAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyToDoListAppTests.swift; sourceTree = "<group>"; };
+		46918ED91D23594200B71018 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				46918EC01D21EC0A00B71018 /* Images.xcassets */,
 				46918EC21D21EC0A00B71018 /* LaunchScreen.xib */,
 				46918EB51D21EC0A00B71018 /* Supporting Files */,
+				46918ED91D23594200B71018 /* LoginViewController.swift */,
 			);
 			path = MyToDoListApp;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46918EDA1D23594200B71018 /* LoginViewController.swift in Sources */,
 				46918EBC1D21EC0A00B71018 /* SecondViewController.swift in Sources */,
 				46918EB81D21EC0A00B71018 /* AppDelegate.swift in Sources */,
 				46918EBA1D21EC0A00B71018 /* FirstViewController.swift in Sources */,
@@ -409,6 +413,7 @@
 				46918ED51D21EC0A00B71018 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		46918ED61D21EC0A00B71018 /* Build configuration list for PBXNativeTarget "MyToDoListAppTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				46918ED81D21EC0A00B71018 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
